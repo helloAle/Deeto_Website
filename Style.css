@@ -1,0 +1,89 @@
+body {
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    /* padding: 2rem; */
+    background-color: #292520;
+    color: #fffaf1;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fffaf1;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: #ffa500;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #fffaf1;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #ff8c00;
+    transition: background-color 0.3s ease;
+}
+.navbar li {
+    float: left;
+}
+
+/* ul li {
+  display: inline-block;
+  margin-right: 10px;
+} */
+
+footer{
+    background-color: rgb(25, 24, 29);
+    color: #fffaf1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+/* desktops */
+@media (max-width: 1440px) {
+  /* .logo{
+    font-size: 16px;
+  }
+  .links{
+    font-size: 12px;
+    padding: 0.3rem 0.5rem;
+  } */
+}
+
+/* tablets */
+@media (max-width: 1024px) {
+  /* .logo{
+    font-size: 16px;
+  }
+  .links{
+    font-size: 12px;
+    padding: 0.3rem 0.5rem;
+  } */
+}
+
+/* smartphones */
+@media (max-width: 600px) {
+  .logo{
+    font-size: 16px;
+  }
+  .links{
+    font-size: 12px;
+    padding: 0.3rem 0.5rem;
+  }
+}
