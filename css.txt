@@ -1,19 +1,41 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
 body {
-    margin: 0%;
-    font-family: Arial, sans-serif;
-    /* padding: 2rem; */
-    background-color: #292520;
-    color: #fffaf1;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  font-family: Arial, sans-serif;
+  /* padding: 2rem; */
+  background-color: #292520;
+  color: #fffaf1;
+  width: 100%;
 }
 main{
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #fffaf1;
+  text-align: center;
+  padding-top: 1%;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fffaf1;
+  flex: 1;
+}
+
+.main-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #292520;
 }
 
 h1{
     text-align: center;
+}
+a{
+  text-decoration: none;
 }
 
 .navbar ul{
@@ -40,17 +62,39 @@ h1{
     float: left;
 }
 
-/* ul li {
+ul li {
   display: inline-block;
   margin-right: 10px;
-} */
+}
 
+.link-box{
+  background-color: antiquewhite;
+  color: #292520;
+  font-size: 13px;
+  margin: 15px auto;
+  width: fit-content;
+  padding: 1px 20px;
+  border-radius: 20px;
+  display: block;
+}
+aside {
+  border: 2px solid red;
+}
+img{
+  border-radius: 50%;
+  width: 140px;
+}
+
+section{
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
 
 footer{
     background-color: rgb(25, 24, 29);
     color: #fffaf1;
-    padding: 1% 0;
-    /* position: fixed; */
+    padding: 2px 0;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -59,7 +103,7 @@ footer{
 
 
 /* desktops */
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) { */
   /* .logo{
     font-size: 16px;
   }
@@ -67,10 +111,10 @@ footer{
     font-size: 12px;
     padding: 0.3rem 0.5rem;
   } */
-}
+/* } */
 
 /* tablets */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .logo{
     font-size: 16px;
   }
@@ -78,10 +122,10 @@ footer{
     font-size: 12px;
     padding: 0.3rem 0.5rem;
   }
-}
+} */
 
 /* smartphones */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .logo{
     font-size: 16px;
   }
@@ -89,37 +133,4 @@ footer{
     font-size: 12px;
     padding: 0.3rem 0.5rem;
   }
-}
-
-/* termos e politica aqui, depois eu dou atenção nisso */
-
-main{
-    display: flex;
-    gap: 20px;
-}
-section{
-    flex: 1;
-    padding: 20px;
-}
-section#markdown-content {
-  background: white;
-  color: #292520;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* smartphones */
-@media (max-width: 600px) {
-  main{
-    flex-direction: column;
-    gap: 10px;
-  }
-  .logo{
-    font-size: 16px;
-  }
-  .links{
-    font-size: 12px;
-    padding: 0.3rem 0.5rem;
-  }
-}
+} */
